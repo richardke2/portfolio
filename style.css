@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 532px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    max-width: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.resume {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.project-title:hover {
+    text-decoration: underline;
+}
+
+.header {
+    margin-top: 32px;
+}
+
+.paragraph {
+    margin-top: 32px;
+}
+
+.content {
+    margin-top: 64px;
+}
+
+.projects {
+    margin-top: 32px;
+}
+
+.project-container {
+    margin-top: 32px;
+}
+
+.project-desc {
+    margin-top: 16px;
+}
+
+.language-container {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    background-color: #f1e05a;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.language {
+    font-size: 14px;
+    font-weight: 700;
+}
